@@ -75,4 +75,6 @@ public class ManageTheInsertedProductTest extends BaseClass{
 
 		
 	}
+
+	//this method execution is successful
 }
