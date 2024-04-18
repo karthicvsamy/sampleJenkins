@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Database connection is successful]]>
+    </line>
+    <line>
+      <![CDATA[Logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged out successfully]]>
+    </line>
+    <line>
+      <![CDATA[The browser is closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[The database is closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-17T18:05:41 IST" name="Default suite" finished-at="2024-04-17T18:05:55 IST" duration-ms="14162">
+    <groups>
+    </groups>
+    <test started-at="2024-04-17T18:05:41 IST" name="Default test" finished-at="2024-04-17T18:05:55 IST" duration-ms="14162">
+      <class name="com.alphaShoppee.userModule.PurchaseAProductTest">
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.alphaShoppee.userModule.PurchaseAProductTest@3c41ed1d]" started-at="2024-04-17T18:05:39 IST" name="connectToDatabase" finished-at="2024-04-17T18:05:41 IST" duration-ms="2473" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connection is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectToDatabase -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.alphaShoppee.userModule.PurchaseAProductTest@3c41ed1d]" started-at="2024-04-17T18:05:41 IST" name="launchBrowser" finished-at="2024-04-17T18:05:43 IST" duration-ms="2145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.alphaShoppee.userModule.PurchaseAProductTest@3c41ed1d]" started-at="2024-04-17T18:05:43 IST" name="login" finished-at="2024-04-17T18:05:44 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="purchaseAProductTest()[pri:0, instance:com.alphaShoppee.userModule.PurchaseAProductTest@3c41ed1d]" started-at="2024-04-17T18:05:44 IST" name="purchaseAProductTest" finished-at="2024-04-17T18:05:55 IST" duration-ms="10717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseAProductTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.alphaShoppee.userModule.PurchaseAProductTest@3c41ed1d]" started-at="2024-04-17T18:05:55 IST" name="logout" finished-at="2024-04-17T18:05:55 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.alphaShoppee.userModule.PurchaseAProductTest@3c41ed1d]" started-at="2024-04-17T18:05:55 IST" name="closeTheBrowser" finished-at="2024-04-17T18:05:55 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The browser is closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeTheDatabase()[pri:0, instance:com.alphaShoppee.userModule.PurchaseAProductTest@3c41ed1d]" started-at="2024-04-17T18:05:55 IST" name="closeTheDatabase" finished-at="2024-04-17T18:05:55 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The database is closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheDatabase -->
+      </class> <!-- com.alphaShoppee.userModule.PurchaseAProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

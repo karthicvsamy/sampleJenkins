@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.alphaShoppee.genericUtility.ListenerImplementationClass"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.alphaShoppee.adminModule.VerifyTheOrderHasBeenInDisplayedAdminModuleTest">
+        <methods>
+          <include name="connectToDatabase"/>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="verifyTheOrderHasBeenDisplayed"/>
+          <include name="login"/>
+          <include name="closeTheDatabase"/>
+          <include name="closeTheBrowser"/>
+        </methods>
+      </class> <!-- com.alphaShoppee.adminModule.VerifyTheOrderHasBeenInDisplayedAdminModuleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
