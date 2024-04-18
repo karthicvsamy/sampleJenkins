@@ -15,7 +15,7 @@ import com.alphaShoppee.genericUtility.BaseClass;
 //@Listeners(com.alphaShoppee.genericUtility.ListenerImplementationClass.class)
 public class ManageTheInsertedProductTest extends BaseClass{
 
-
+//manage the inserted inserted product
 	@Test(retryAnalyzer = com.alphaShoppee.genericUtility.RetryAnalyzerImplementationClass.class)
 	public void manageTheInsertedProductTest() throws IOException {
 		
