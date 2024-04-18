@@ -12,10 +12,14 @@ import com.alphaShoppee.elementRepository.AdminSubcategoryPage;
 import com.alphaShoppee.genericUtility.BaseClass;
 
 
+
 //@Listeners(com.alphaShoppee.genericUtility.ListenerImplementationClass.class)
 public class ManageTheInsertedProductTest extends BaseClass{
 
 //manage the inserted inserted product
+	
+//this method is used to manage the inserted product
+	
 	@Test(retryAnalyzer = com.alphaShoppee.genericUtility.RetryAnalyzerImplementationClass.class)
 	public void manageTheInsertedProductTest() throws IOException {
 		
